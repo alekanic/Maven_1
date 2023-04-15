@@ -36,7 +36,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    void shouldCalculateForInRegisteredAndUnderLimit() {
+    void shouldCalculateForUnRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
@@ -52,7 +52,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    void shouldCalculateForInRegisteredAndOverLimit() {
+    void shouldCalculateForUnRegisteredAndOverLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
@@ -68,7 +68,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    void shouldCalculateForInRegisteredAndOnLimit() {
+    void shouldCalculateForUnRegisteredAndOnLimit() {
         BonusService service = new BonusService();
 
         // подготавливаем данные:
